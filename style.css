@@ -1,0 +1,32 @@
+.box-grid{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 40% 60%;
+    gap: 10px;
+}
+
+header{
+    background-color: #02275F;
+    grid-column: 2/3;
+    color: #37ff00; 
+    
+}
+
+/* .bild1{
+    max-width: 30%;
+    max-height: auto;
+    grid-column: 1/2;
+    border: 2px soild orange;
+    border-radius: 15px;
+    
+    
+} */
+
+.rubrik{
+    grid-column: 2/3;    
+    text-align: center;
+}
+
+
+
+ 
