@@ -1,9 +1,9 @@
 .box-grid{
     display: grid;
     grid-template-columns: 10% 90%;
-    grid-template-rows: 20% 20% 60%;  
+    grid-template-rows: 20% 60% ;  
 }
-
+/* Header början */
 .bild1{
     border-radius: 15px;
     grid-column: 1/2;
@@ -49,19 +49,20 @@ h1{
     
     background-color: #C0D2E7;
     color: #02275F;
-    border: 3px solid #9cbde3;
-    border-radius: 10px;
+    border: 3px solid #a5c7ed;
+    border-radius: 25px;
 
-    margin-top: 25px;
-    margin-bottom: 50px;
+    margin-top: 30px; 
+    margin-bottom: 39px;
     margin-right: 10%;
     margin-left: 85%;
     
-
-
 }
+/* Header slut */
 
-
-
+/* Nav början */
+nav{
+    border-radius: 3px solid orange;
+}
 
  
