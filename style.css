@@ -1,6 +1,6 @@
 .box-grid{
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 10% 45% 45%;
     grid-template-rows: 20% 60% ;  
 }
 /* Header början */
@@ -63,6 +63,7 @@ h1{
 /* Nav början */
 nav{
     border-radius: 3px solid orange;
+    grid-column: 2/3 ;
 }
 
  
