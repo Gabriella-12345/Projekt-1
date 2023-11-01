@@ -4,6 +4,7 @@
     grid-template-rows: 20% 60% ;  
 }
 /* Header början */
+
 .bild1{
     border-radius: 15px;
     grid-column: 1/2;
@@ -32,17 +33,19 @@ h1{
     margin-right: 20%;
 }
 
-
 .oss{
-    grid-column: 2/3;  
+    color: #C0D2E7; 
+    background-color: #02275F;
+
+    grid-column: 3/4;  
     grid-row: 1/2; 
     text-align: right;  
     margin-right: 50%;
     margin-top: 38px;
-    color: #C0D2E7; 
+    
 }
 .meny{
-    grid-column: 2/3;  
+    grid-column: 3/4;  
     grid-row: 1/2; 
     text-align: center;
     
@@ -61,7 +64,7 @@ h1{
 /* Header slut */
 
 /* Nav början */
-nav{
+aside{
     border-radius: 3px solid orange;
     grid-column: 2/3 ;
 }
