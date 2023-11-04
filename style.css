@@ -1,6 +1,6 @@
 .box-grid{
     display: grid;
-    grid-template-columns: 10% 45% 45%;
+    grid-template-columns: 12% 44% 44%;
     grid-template-rows: 20% 60% ;  
 }
 /* Header början */
@@ -73,16 +73,28 @@ h1{
 /* Header slut */
 
 /* Nav början */
-aside{
-    border-radius: 3px solid orange;
+.Gurkrubrik{
+    border: 3px solid orange;
     color: black;
 
     grid-column: 2/3 ;
+    grid-row: 2/3;
     text-align: left;
     padding-top: 50px;
 
     font-family: "lemon";
     font-size: large;
+
+}
+.beskrivning{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: large;
+    font-family: "Lao Muang Don";
+
+    text-align: left;
+    padding-top: 200px;
+    border: 3px solid magenta;
 
 }
 
