@@ -12,7 +12,7 @@
     max-width: auto; 
     max-height: 70%;
     margin-top: 20px;
-    margin-left: 28%;
+    margin-left: 20%;
 
     border-radius: 15px;
     border: 3px solid #000000;
@@ -36,6 +36,7 @@
 h1{
     margin-top: 50px;
     margin-right: 20%;
+    padding-top: 50px;
 }
 
 .oss{
@@ -46,35 +47,34 @@ h1{
     grid-row: 1/2; 
     text-align: center; 
     padding-right:30%;
-    padding-top: 4%;
+    padding-top: 8%;
     font-family: "lemon";
-    
     
 }
 .meny{
     grid-column: 3/4;  
     grid-row: 1/2; 
-    text-align: center;
+    text-align: right;
     font-family: "lemon";
     
     
-    background-color: #C0D2E7;
-    color: #02275F;
-    border: 3px solid #a5c7ed;
+    /* background-color: #C0D2E7; */
+    border: 3px solid orange;
+    color:#020202;
     border-radius: 25px;
 
-    margin-top: 35px; 
-    margin-bottom: 52px;
-    margin-right: 10%;
+    padding-top: 8%;
+    padding-right: 10%;
     margin-left: 80%;
+    margin-right: 5%;
+     
     
 }
 
 /* Header slut */
 
-/* Nav början */
+/* Aside början */
 .Gurkrubrik{
-    border: 3px solid orange;
     color: black;
 
     grid-column: 2/3 ;
@@ -91,11 +91,12 @@ h1{
 .beskrivning{
     grid-column: 2/3;
     grid-row: 2/3;
-    font-size: large;
+    font-size: 220%;
     font-family: "Lao Muang Don";
 
     text-align: left;
     padding-top: 200px;
+    padding-right: 30px;
     border: 3px solid magenta;
 
 }
