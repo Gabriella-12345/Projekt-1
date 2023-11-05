@@ -1,7 +1,8 @@
 .box-grid{
     display: grid;
     grid-template-columns: 12% 44% 44%;
-    grid-template-rows: 20% 60% ;  
+    grid-template-rows: 20% 40% 20% ;
+  
 }
 /* Header början */
 
@@ -63,10 +64,15 @@ h1{
     color:#020202;
     border-radius: 25px;
 
-    padding-top: 8%;
-    padding-right: 10%;
+    padding-top: 3%;
+    padding-right: 4%;
+    
+
     margin-left: 80%;
-    margin-right: 5%;
+    margin-bottom: 8%;
+    margin-top: 8%;
+    margin-right: 7%;
+    
      
     
 }
@@ -86,8 +92,6 @@ h1{
     font-size: large;
 
 }
-
-
 .beskrivning{
     grid-column: 2/3;
     grid-row: 2/3;
@@ -100,5 +104,6 @@ h1{
     border: 3px solid magenta;
 
 }
+
 
  
