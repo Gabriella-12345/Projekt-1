@@ -1,7 +1,7 @@
 .box-grid{
     display: grid;
-    grid-template-columns: 12% 44% 44%;
-    grid-template-rows: 20% 50% 50% ;
+    grid-template-columns: 14% 44% 44%;
+    grid-template-rows: 15% 30% 55% 20%;
   
 }
 /* Header början */
@@ -13,7 +13,7 @@
     max-width: auto; 
     max-height: 70%;
     margin-top: 20px;
-    margin-left: 20%;
+    margin-left: 10%;
 
     border-radius: 15px;
     border: 3px solid #000000;
@@ -131,3 +131,43 @@ h1{
     border: 3px solid yellow;
     margin-top: 40%;
 }  */
+
+/* aside slut */
+
+/* Main början */
+.hur{
+    background-color: #02275F;
+    color: #C0D2E7;
+    border-radius:15px;
+
+    grid-row: 3/4;
+    grid-column: 2/3;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    margin-top: 20px;
+
+    gap: 30px;
+   
+}
+.link{
+    background-color: #02275F;
+    color: #98bae1;
+    border-radius: 15px;
+
+    grid-row: 3/4;
+    grid-column: 3/4;
+
+    margin-left: 10%;
+    margin-right: 22%;
+    margin-top: 20px;
+}  
+.stor{
+    font-family: "lemon";
+    font-size: 27px;
+}
+.liten{
+    font-family:"Lao Muang Don";
+    font-size: 30px;
+}
