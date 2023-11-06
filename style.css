@@ -1,7 +1,7 @@
 .box-grid{
     display: grid;
     grid-template-columns: 12% 44% 44%;
-    grid-template-rows: 20% 40% 20% ;
+    grid-template-rows: 20% 50% 50% ;
   
 }
 /* Header början */
@@ -57,23 +57,19 @@ h1{
     grid-row: 1/2; 
     text-align: right;
     font-family: "lemon";
+    font-size: medium;
     
-    
-    /* background-color: #C0D2E7; */
-    border: 3px solid orange;
+    background-color: #C0D2E7;
+    border: 3px solid #98bae1;
     color:#020202;
     border-radius: 25px;
 
-    padding-top: 3%;
     padding-right: 4%;
-    
-
-    margin-left: 80%;
-    margin-bottom: 8%;
-    margin-top: 8%;
-    margin-right: 7%;
-    
-     
+    padding-top: 4%;
+    margin-left: 81%;
+    margin-bottom: 10%;
+    margin-top: 9%;
+    margin-right: 6%;
     
 }
 
@@ -101,9 +97,37 @@ h1{
     text-align: left;
     padding-top: 200px;
     padding-right: 30px;
-    border: 3px solid magenta;
 
 }
 
+.bild{
+    border: 5px solid green;
+    border-radius: 10px;
+    grid-row: 2/3;
+    grid-column: 3/4;
 
- 
+    margin-top: 3%;
+    margin-right: 30%;
+    margin-left: 20%;
+}
+#bild1{
+    border: 3px solid red;
+    grid-row: 2/3;
+    grid-column: 3/4;
+
+    margin-right: 50%;
+    margin-bottom: 60%; 
+    height:230px;
+    width: 500px;
+
+} 
+
+/* #bild2{
+    border: 3px solid darkblue;
+    margin-left: 50%;
+    margin-bottom: 60%;
+}
+#bild3{
+    border: 3px solid yellow;
+    margin-top: 40%;
+}  */
