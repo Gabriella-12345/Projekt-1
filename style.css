@@ -4,8 +4,8 @@
     grid-template-rows: 15% 30% 50% 15%;
   
 }
-/* Header början */
 
+/* Header början */
 .bild1{
     grid-column: 1/2;
     grid-row: 1/2;
@@ -72,7 +72,6 @@ h1{
     margin-right: 6%;
     
 }
-
 /* Header slut */
 
 /* Aside början */
@@ -131,7 +130,6 @@ h1{
     border: 3px solid yellow;
     margin-top: 40%;
 }  */
-
 /* aside slut */
 
 /* Main början */
@@ -177,10 +175,10 @@ h1{
     font-family:"Lao Muang Don";
     font-size: 30px;
 }
+
 /* Main slut */
 
 /* Footer början */
-
 footer{
     background-color: #C0D2E7;
     color: #02275F;
@@ -194,4 +192,4 @@ footer{
     padding-right: 20px;
     
 }
-/*  */
+/* Footer slut */
